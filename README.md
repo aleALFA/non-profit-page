@@ -3,11 +3,17 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
 
 ## Development server
+### On docker
+Run `docker compose up` to initialize a docker container with the necessary dependencies to set up a local server. Navigate to `http://localhost:4201/`. The application will automatically reload if you change any of the source files.
 
+### On local
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
+### On docker
+Run the same commands bellow with the prefix `docker compose exec -u "1000" web ${command}`.
 
+### On local
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build

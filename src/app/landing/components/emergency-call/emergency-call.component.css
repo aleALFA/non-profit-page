@@ -1,0 +1,34 @@
+.emergency-call {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.emergency-call button {
+    background: var(--emergency-background);
+    height: 18vw;
+    width: 18vw;
+}
+.emergency-call mat-icon {
+    color: var(--secondary-font);
+    font-size: 40px;
+    height: 13vw;
+    line-height: 15vw;
+    width: 13vw;
+}
+
+@media (min-width: 600px) {
+    .emergency-call {
+        bottom: 45px;
+        right: 25px;
+    }
+    .emergency-call button {
+        height: 75px;
+        width: 75px;
+    }
+    .emergency-call mat-icon {
+        font-size: 40px;
+        height: 60px;
+        line-height: 60px;
+        width: 60px;
+    }
+}

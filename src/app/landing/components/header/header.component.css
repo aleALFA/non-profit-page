@@ -1,0 +1,9 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+mat-toolbar {
+    background: var(--main-background);
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+}

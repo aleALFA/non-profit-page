@@ -1,0 +1,30 @@
+footer {
+    align-items: center;
+    display: flex;
+    flex-flow: column-reverse wrap;
+    font-size: small;
+    justify-content: space-around;
+    margin: 30px auto;
+    max-width: 950px;
+    row-gap: 20px;
+    width: 90%;
+}
+
+footer .footer-copy {
+    flex-grow: 6;
+}
+
+footer p {
+    flex-grow: 1;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    footer {
+        flex-direction: row;
+    }
+
+    footer .footer-copy p {
+        text-align: left;
+    }
+}

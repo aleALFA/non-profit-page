@@ -1,0 +1,13 @@
+section.hero {
+    align-items: center;
+
+    background: -moz-linear-gradient(-45deg,  var(--main-background) 0%, var(--body-background) 60%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,var(--main-background)), color-stop(60%,var(--body-background))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(-45deg,  var(--main-background) 0%, var(--body-background) 60%); /* Chrome10+,Safari5.1+ */
+    
+
+    display: flex;
+    height: calc(100vh - var(--mat-toolbar-mobile-height));
+    justify-content: center;
+    width: 100%;
+}

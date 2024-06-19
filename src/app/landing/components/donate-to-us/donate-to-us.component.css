@@ -1,0 +1,34 @@
+.donate-to-us {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+.donate-to-us button {
+    background: var(--main-background);
+    height: 18vw;
+    width: 18vw;
+}
+.donate-to-us mat-icon {
+    color: var(--secondary-font);
+    font-size: 40px;
+    height: 13vw;
+    line-height: 13vw;
+    width: 13vw;
+}
+
+@media (min-width: 600px) {
+    .donate-to-us {
+        bottom: 45px;
+        left: 25px;
+    }
+    .donate-to-us button {
+        height: 75px;
+        width: 75px;
+    }
+    .donate-to-us mat-icon {
+        font-size: 40px;
+        height: 60px;
+        line-height: 60px;
+        width: 60px;
+    }
+}
