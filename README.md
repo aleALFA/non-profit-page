@@ -17,11 +17,18 @@ Run the same commands bellow with the prefix `docker compose exec -u "1000" web 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
+### On docker
+Run the same commands bellow with the prefix `docker compose exec -u "1000" web ng build`.
 
+### On local
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
+### On docker
+Run the same commands bellow with the prefix `docker compose exec -u "1000" web ng test`.
+
+### On local
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Running end-to-end tests
